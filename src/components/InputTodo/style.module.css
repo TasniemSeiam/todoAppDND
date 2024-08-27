@@ -1,0 +1,26 @@
+.inputTodo{
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    margin:10px 10px 7px 90px ;
+    border: 1px solid #eee;
+    width: 250px;
+
+}
+.btn{
+    padding: 7px 35px;
+    width: 150px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 80px;
+}
+.selectType{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 10px;
+    outline:none;
+}

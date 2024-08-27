@@ -1,0 +1,14 @@
+.dropArea {
+  width: 93%;
+  background-color: #eee;
+  border-radius: 7px;
+  height: 30px;
+  margin: 0px auto;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  opacity: 1;
+}
+.hideDropArea {
+  opacity: 0;
+}
