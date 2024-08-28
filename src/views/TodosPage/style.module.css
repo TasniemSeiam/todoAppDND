@@ -25,4 +25,5 @@
 }
 .label{
     color:#dec099;
+    text-transform: capitalize;
 }

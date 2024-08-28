@@ -1,31 +1,32 @@
-.todoItem{
-    /* background-color: #fff; */
-    /* border-radius: 7px; */
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-    font-size: 15px;
-    width: 250px;
-    /* display: flex; */
-    /* height: 50px; */
-    overflow:hidden;
-    /* align-items: center;
-    justify-content: space-between; */
-    word-wrap: break-word;
+.todoItems {
+  margin: 7px auto;
+  width: 92%;
+  padding-left: 7px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
-.todoItem ul li{
-    padding: 0 10px;
-    list-style-position: inside;
+.todoItem,
+.inprogress,
+.done {
+  font-size: 16px;
+  width: 250px;
+  overflow: hidden;
+  word-wrap: break-word;
 }
-.todoItems{
-    margin: 7px auto;
-    width: 92%;
-    padding-left: 7px;
-    display: flex;
-    justify-content:space-around;
-    background-color: #fff;
-    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    /* cursor: grab; */
+.todoItem ul li,
+.inprogress ul li,
+.done ul li {
+  padding: 0 10px;
+  list-style-position: inside;
 }
-/* .todoItems:active{
-    border: 2px solid brown;
-} */
+
+.inprogress {
+  color: #1ca806;
+}
+.done {
+  color: #666;
+  text-decoration: line-through;
+}

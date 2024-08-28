@@ -34,7 +34,7 @@ const TodosPage = () => {
           {_.map(list, (data, key) => {
             return (
               <div key={key} className={styles.column}>
-                <h4 className={styles.label}>{key}</h4>
+                <h4 className={styles.label}>{data.title}</h4>
                 <Droppable droppableId={String(key)}>
                   {(provided) => (
                     <div
@@ -55,10 +55,10 @@ const TodosPage = () => {
                               {...provided.dragHandleProps}
                             >
                               <Todo
-                                title={todo.title}
-                                type={todo.type}
-                                id={todo.id}
-                                droppableId={key} // Pass the droppableId
+                              title={todo.title}
+                              type={todo.type}
+                              id={todo.id}
+                              droppableId={key} // Pass the droppableId
                               />
                             </div>
                           )}
