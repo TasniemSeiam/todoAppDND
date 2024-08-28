@@ -1,9 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  todo: { title: "Todo", items: [{title:"hello todo"}] },
-  inprogress: { title: "In progress", items: [{title:"hello inprogress"}] },
-  done: { title: "Done", items: [{title:"hello done"}] },
+  todo: { title: "Todo", items: [] },
+  inprogress: { title: "In progress", items: [] },
+  done: { title: "Done", items: [] },
 };
 
 const TodoSlice = createSlice({
