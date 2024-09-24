@@ -1,5 +1,5 @@
-# Getting Started with Create React App
-
+# React App
+created used redux, redux toolkit and react-beautiful-dnd 
 
 
 
